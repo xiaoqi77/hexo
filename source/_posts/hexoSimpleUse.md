@@ -23,12 +23,12 @@ notshow: true
 如下图设置：
 ```
 
-![定义class](images/bgSetting.png)
+![定义class](bgSetting.png)
 
 ``` bash
-* 找到定义该div的css问价，即 hexo-theme-air\source\css\_partial\header.styl，设置属性值，如下图
+* 找到定义该div的css位置，即 hexo-theme-air\source\css\_partial\header.styl，设置属性值，如下图
 ```
-![定义class值](images/bgattr.png)
+![定义class值](bgattr.png)
 
 
 设置成功！我都是在本地先调试，更新之后刷新浏览器即可看到效果，希望对你有用！
@@ -46,7 +46,7 @@ author: xiaoqi
 language: zh-CN # 显示中文设置
 timezone:
 ```
-![设置中文](images/settingZH.png)
+![设置中文](settingZH.png)
 
 这里的zh-CN其实是对应主题下languages文件下的zh-CN.yml,默认是英文的。
 

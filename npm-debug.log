@@ -1,0 +1,68 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'https://github.com/CodeFalling/hexo-asset-image',
+1 verbose cli   '--save' ]
+2 info using npm@2.14.12
+3 info using node@v4.2.4
+4 verbose install initial load of C:\hexo\package.json
+5 verbose installManyTop reading scoped package data from C:\hexo\node_modules\hexo\package.json
+6 verbose installManyTop reading scoped package data from C:\hexo\node_modules\hexo-deployer-git\package.json
+7 verbose installManyTop reading scoped package data from C:\hexo\node_modules\hexo-generator-archive\package.json
+8 verbose installManyTop reading scoped package data from C:\hexo\node_modules\hexo-generator-category\package.json
+9 verbose installManyTop reading scoped package data from C:\hexo\node_modules\hexo-generator-index\package.json
+10 verbose installManyTop reading scoped package data from C:\hexo\node_modules\hexo-generator-tag\package.json
+11 verbose installManyTop reading scoped package data from C:\hexo\node_modules\hexo-renderer-ejs\package.json
+12 verbose installManyTop reading scoped package data from C:\hexo\node_modules\hexo-renderer-marked\package.json
+13 verbose installManyTop reading scoped package data from C:\hexo\node_modules\hexo-renderer-stylus\package.json
+14 verbose installManyTop reading scoped package data from C:\hexo\node_modules\hexo-server\package.json
+15 verbose readDependencies loading dependencies from C:\hexo\package.json
+16 silly cache add args [ 'https://github.com/CodeFalling/hexo-asset-image', null ]
+17 verbose cache add spec https://github.com/CodeFalling/hexo-asset-image
+18 silly cache add parsed spec Result {
+18 silly cache add   raw: 'https://github.com/CodeFalling/hexo-asset-image',
+18 silly cache add   scope: null,
+18 silly cache add   name: null,
+18 silly cache add   rawSpec: 'https://github.com/CodeFalling/hexo-asset-image',
+18 silly cache add   spec: 'git+https://github.com/CodeFalling/hexo-asset-image.git',
+18 silly cache add   type: 'hosted',
+18 silly cache add   hosted:
+18 silly cache add    { type: 'github',
+18 silly cache add      ssh: 'git@github.com:CodeFalling/hexo-asset-image.git',
+18 silly cache add      sshUrl: 'git+ssh://git@github.com/CodeFalling/hexo-asset-image.git',
+18 silly cache add      httpsUrl: 'git+https://github.com/CodeFalling/hexo-asset-image.git',
+18 silly cache add      gitUrl: 'git://github.com/CodeFalling/hexo-asset-image.git',
+18 silly cache add      shortcut: 'github:CodeFalling/hexo-asset-image',
+18 silly cache add      directUrl: 'https://raw.githubusercontent.com/CodeFalling/hexo-asset-image/master/package.json' } }
+19 verbose addRemoteGit caching https://github.com/CodeFalling/hexo-asset-image
+20 verbose addRemoteGit git+https://github.com/CodeFalling/hexo-asset-image.git is a repository hosted by github
+21 silly tryClone cloning git+https://github.com/CodeFalling/hexo-asset-image.git via git+https://github.com/CodeFalling/hexo-asset-image.git
+22 verbose tryClone https-github-com-CodeFalling-hexo-asset-image-git-1ee6dc93 not in flight; caching
+23 verbose makeDirectory C:\Users\mq\AppData\Roaming\npm-cache\_git-remotes creation not in flight; initializing
+24 verbose makeCacheDir UID & GID are irrelevant on win32
+25 info git [ 'clone',
+25 info git   '--template=C:\\Users\\mq\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates',
+25 info git   '--mirror',
+25 info git   'https://github.com/CodeFalling/hexo-asset-image.git',
+25 info git   'C:\\Users\\mq\\AppData\\Roaming\\npm-cache\\_git-remotes\\https-github-com-CodeFalling-hexo-asset-image-git-1ee6dc93' ]
+26 error git clone --template=C:\Users\mq\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/CodeFalling/hexo-asset-image.git C:\Users\mq\AppData\Roaming\npm-cache\_git-remotes\https-github-com-CodeFalling-hexo-asset-image-git-1ee6dc93:
+27 verbose stack Error: spawn git ENOENT
+27 verbose stack     at exports._errnoException (util.js:870:11)
+27 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:178:32)
+27 verbose stack     at onErrorNT (internal/child_process.js:344:16)
+27 verbose stack     at doNTCallback2 (node.js:441:9)
+27 verbose stack     at process._tickCallback (node.js:355:17)
+28 verbose cwd C:\hexo
+29 error Windows_NT 10.0.10586
+30 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "https://github.com/CodeFalling/hexo-asset-image" "--save"
+31 error node v4.2.4
+32 error npm  v2.14.12
+33 error path git
+34 error code ENOENT
+35 error errno ENOENT
+36 error syscall spawn git
+37 error enoent spawn git ENOENT
+37 error enoent This is most likely not a problem with npm itself
+37 error enoent and is related to npm not being able to find a file.
+38 verbose exit [ 1, true ]
