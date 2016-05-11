@@ -6,3 +6,5 @@ tags:
 
 参考：http://blog.fens.me/hexo-blog-github/
 http://www.cnblogs.com/zhcncn/p/4097881.html
+
+//测试文章
